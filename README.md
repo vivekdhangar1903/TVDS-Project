@@ -160,10 +160,3 @@ GitHub: https://github.com/vivekdhangar1903
 # License
 
 This project is intended for educational use only.
-
-
-Run:
-
-git add README.md
-git commit -m "Added project README"
-git push
