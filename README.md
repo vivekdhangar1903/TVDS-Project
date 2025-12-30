@@ -161,11 +161,6 @@ GitHub: https://github.com/vivekdhangar1903
 
 This project is intended for educational use only.
 
-# Tip (IMPORTANT)
-
-After adding this README:
-
-Save file as README.md
 
 Run:
 
