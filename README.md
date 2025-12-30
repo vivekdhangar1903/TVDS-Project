@@ -1,12 +1,11 @@
-🚦 Traffic Violation Detection System (TVDS)
-📌 Overview
+# Traffic Violation Detection System (TVDS)
 
 The Traffic Violation Detection System (TVDS) is a computer vision–based project developed to detect common traffic violations using images and videos captured from CCTV-style cameras.
 The system is designed as a prototype to demonstrate how Artificial Intelligence and Computer Vision can assist in automated traffic monitoring.
 
 This project focuses on rule-based violation detection combined with deep learning object detection.
 
-🎯 Objectives of the Project
+# Objectives of the Project
 
 Detect traffic rule violations automatically
 
@@ -16,7 +15,7 @@ Demonstrate real-world application of computer vision
 
 Provide a scalable prototype for smart traffic systems
 
-🚨 Traffic Violations Detected
+# Traffic Violations Detected
 
 The system detects the following violations:
 
@@ -38,7 +37,7 @@ Wrong Direction Detection
 
 Detects vehicles moving opposite to the expected traffic direction
 
-🧠 Technologies Used
+# Technologies Used
 🔹 Python
 
 Used as the main programming language to implement all system logic.
@@ -75,7 +74,7 @@ Displaying output
 
 Used for numerical operations and pixel-level calculations.
 
-🧩 System Working
+# System Working
 Image Mode
 
 Processes static traffic images
@@ -98,7 +97,7 @@ Checks stop-line crossing
 
 Detects wrong-direction movement
 
-🗂️ Project Structure
+# Project Structure
 TVDS_Project/
 │
 ├── main.py           # Main program
@@ -108,20 +107,20 @@ TVDS_Project/
 ├── .gitignore
 └── README.md
 
-▶️ How to Run the Project
-1️⃣ Install Required Libraries
+# How to Run the Project
+1️ Install Required Libraries
 pip install ultralytics opencv-python numpy
 
-2️⃣ Select Mode
+2️ Select Mode
 
 In config.py:
 
 mode = "image"   # or "video"
 
-3️⃣ Run the Project
+3️ Run the Project
 python main.py
 
-📊 Output
+# Output
 
 Bounding boxes on detected objects
 
@@ -131,7 +130,7 @@ Unique IDs for vehicles in video mode
 
 Visual demonstration suitable for academic presentation
 
-⚠️ Limitations
+# Limitations
 
 Helmet detection is rule-based and may not be 100% accurate
 
@@ -139,7 +138,7 @@ Performance depends on camera angle and lighting
 
 Designed as a prototype, not a production system
 
-🚀 Future Enhancements
+# Future Enhancements
 
 Integrate a helmet-trained deep learning model
 
@@ -149,20 +148,20 @@ Support real-time CCTV feeds
 
 Improve accuracy using custom-trained datasets
 
-🎓 Academic Purpose
+# Academic Purpose
 
 This project is developed as a minor academic project to demonstrate the application of AI and Computer Vision concepts in real-world traffic management systems.
 
-👤 Author
+# Author
 
 Vivek Dhangar
 GitHub: https://github.com/vivekdhangar1903
 
-📜 License
+# License
 
 This project is intended for educational use only.
 
-🔥 Tip (IMPORTANT)
+# Tip (IMPORTANT)
 
 After adding this README:
 
